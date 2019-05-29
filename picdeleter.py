@@ -1,7 +1,3 @@
-import os
-import glob
-import datetime
-
 '''
  This script deletes recent pictures that have been uploaded. 
  Make sure you change the absolute path so that it has your username in it.
@@ -16,6 +12,10 @@ import datetime
  be the way to go. 
 
 '''
+
+import os
+import glob
+import datetime
 
 # absolute path of the directory where the script should be executed on
 absolute_path = '/Users/insert_your_username_here/Downloads/'
